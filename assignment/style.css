@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 .menu-area{
@@ -105,10 +106,46 @@ header{
     
 }
 
-/* Align the h1 containing your name in the center of the header*/
+.about-pages{
+    width: 100%;
+    padding: 78px 0px;
+    margin: 0;
+    background-color: #191919;
+}
 
-/* Make your p tag a different color and italic */
+.body-pages{
+    background-color: #191919;
+}
 
-/* Put a border around your image */
+.about-pages img{
+    height: fill;
+    width: 420px;
+}
 
-/* Change the font-family of your list */
+.about-text-pages{
+    width: 550px;
+}
+
+.main-pages{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text-pages h1{
+    color: #fff;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text-pages h5{
+    color: #fff;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}

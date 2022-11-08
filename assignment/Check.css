@@ -24,3 +24,14 @@ ul{
     list-style: lower-greek;
     font-family: cursive;
 }
+
+button{
+    background: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}

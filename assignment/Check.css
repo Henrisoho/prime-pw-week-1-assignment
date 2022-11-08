@@ -1,0 +1,25 @@
+header{
+    text-align: center;
+    background-color: aqua;
+    margin: 0 auto;
+    border-top: 0;
+}
+
+img{
+     width: 200px;
+    max-width: 95%;
+    align-items: left;
+    border-color: 10px rgba(255, 0, 0, 0.552);
+}
+
+footer{
+     text-align: center;
+    background-color: mediumaquamarine;
+    margin: 0 auto;
+    border-top: 0;
+}
+
+ul{
+    list-style: lower-greek;
+    font-family: cursive;
+}
